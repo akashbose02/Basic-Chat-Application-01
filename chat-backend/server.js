@@ -10,7 +10,7 @@ app.use(cors());
 
 const io = new Server(server, {
   cors: {
-    origin: "*", // Allow all origins (insecure for prod)
+    origin: "*",
     methods: ["GET", "POST"],
   },
 });

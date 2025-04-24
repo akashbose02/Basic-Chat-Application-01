@@ -10,8 +10,7 @@ import {
 } from "react-native";
 import { io } from "socket.io-client";
 
-// 👉 Replace with your computer's local IP address
-const socket = io("http://192.168.X.X:3000");
+const socket = io("http://192.168.1.40:3000");
 
 export default function App() {
   const [message, setMessage] = useState("");
