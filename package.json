@@ -1,14 +1,4 @@
 {
-  "name": "basic-chat-application-01",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "basic-chat-application-01": "file:",
     "cors": "^2.8.5",
